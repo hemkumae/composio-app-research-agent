@@ -1,0 +1,101 @@
+app_name,api_available,mcp_status,buildability,confidence,evidence_count,qc_flags,needs_manual_review
+Salesforce,Yes,Unknown,Unknown,high,5,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+HubSpot,Yes,Unknown,Medium,high,3,MCP status requires verification; Model requested manual review,True
+Pipedrive,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Attio,Yes,Unknown,High,high,3,MCP status requires verification; Model requested manual review,True
+Twenty,Yes,Supported,Unknown,medium,2,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Podio,Yes,Unknown,High,high,3,MCP status requires verification,True
+Zoho CRM,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Copper,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+DealCloud,Yes,Unknown,Unknown,high,3,Authentication unknown; Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Zendesk,Yes,Unknown,Low,high,3,MCP status requires verification,True
+Freshdesk,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Front,Yes,Unknown,Partners can launch public integrations using OAuth,high,2,MCP status requires verification; Model requested manual review,True
+Close,Yes,Unknown,Moderate,high,2,MCP status requires verification; Model requested manual review,True
+Help Scout,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Zoho Cliq,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Lark (Larksuite),Yes,Unknown,Yes,high,3,MCP status requires verification,True
+Pumble,Yes,Unknown,Unknown,high,3,Buildability requires verification; Documentation domain not represented in evidence; MCP status requires verification,True
+Intercom,Yes,Unknown,Yes,low,3,MCP status requires verification; Model requested manual review,True
+Pylon,Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification,True
+LiveAgent,Yes,Third-party integration,Yes,medium,9,MCP status requires verification,True
+Plain,Yes,Native,"Yes - GraphQL API, webhooks and remote MCP support customer-support integrations.",high,3,Model requested manual review,True
+Gorgias,Yes,Unknown,Yes,medium,3,MCP status requires verification,True
+Gladly,Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification,True
+Slack,Yes,Native,Yes,high,2,Model requested manual review,True
+Twilio,Yes,Unknown,Unknown,medium,3,Authentication unknown; Buildability requires verification; MCP status requires verification,True
+Discord,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Telegram,Yes,Unknown,Machine-readable version of this page,high,3,MCP status requires verification; Model requested manual review,True
+WhatsApp Business,Yes,Native,High,high,3,Model requested manual review,True
+Aircall,Yes,Unknown,Unknown,medium,4,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Vonage,Yes,Unknown,Low Code and AI,medium,4,MCP status requires verification; Model requested manual review,True
+Google Ads,Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Meta Ads,Yes,Unknown,The Meta Ads API is a set of programmatic endpoints that let you talk directly to Meta's advertising platform through code.,high,3,MCP status requires verification; Model requested manual review,True
+LinkedIn Ads,Yes,Unknown,Yes,low,2,MCP status requires verification; Model requested manual review,True
+GoHighLevel,Yes,Unknown,High,high,3,MCP status requires verification; Model requested manual review,True
+Mailchimp,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Klaviyo,Yes,Native,High,high,3,Model requested manual review,True
+systeme.io,Yes,Unknown,High,medium,3,Authentication unknown; MCP status requires verification; Model requested manual review,True
+Pinterest,Yes,Unknown,Not specified,medium,3,MCP status requires verification; Model requested manual review,True
+Threads (Meta),Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+SendGrid,Yes,Third-party integration,Developer-first email platform,medium,3,MCP status requires verification; Model requested manual review,True
+Shopify,Yes,Native,Yes,medium,3,Model requested manual review,True
+WooCommerce,Yes,Unknown,Unknown,low,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+BigCommerce,Yes,Unknown,High,high,3,MCP status requires verification; Model requested manual review,True
+Salesforce Commerce Cloud,Yes,Native,Medium,medium,3,Model requested manual review,True
+Magento (Adobe Commerce),Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Squarespace,Yes,Third-party integration,Yes,medium,3,MCP status requires verification; Model requested manual review,True
+Ecwid,Yes,Third-party integration,High,high,3,MCP status requires verification; Model requested manual review,True
+Gumroad,Yes,Native,Unknown,high,3,Buildability requires verification; Model requested manual review,True
+Amazon Selling Partner,Yes,Third-party integration,Known,medium,3,MCP status requires verification; Model requested manual review,True
+Fanbasis,Yes,Unknown,Yes - REST API and JavaScript checkout SDK support payment and checkout integrations.,medium,4,MCP status requires verification; Model requested manual review,True
+DataForSEO,Yes,Unknown,Available,high,3,MCP status requires verification; Model requested manual review,True
+SE Ranking,Yes,Native,Moderate,medium,3,Authentication unknown; Model requested manual review,True
+Ahrefs,Yes,Unknown,High,high,3,MCP status requires verification; Model requested manual review,True
+MrScraper,Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Apify,Yes,Yes,Yes,high,2,MCP status requires verification; Model requested manual review,True
+Firecrawl,Yes,Unknown,Unknown,medium,4,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Bright Data,Yes,Native MCP support,Yes,high,4,MCP status requires verification; Model requested manual review,True
+Sherlock,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Waterfall.io,Yes,Unknown,Unknown,low,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Clay,Yes,Native,Yes - API and CLI support integration workflows; table API access has read/write limitations.,high,3,Model requested manual review,True
+GitHub,Yes,Native MCP support,Yes,high,3,MCP status requires verification; Model requested manual review,True
+Vercel,Yes,Third-party integration,Yes,medium,2,MCP status requires verification; Model requested manual review,True
+Netlify,Yes,Native MCP support,Yes,high,3,MCP status requires verification; Model requested manual review,True
+Cloudflare,Yes,Native MCP support,Yes,high,3,MCP status requires verification; Model requested manual review,True
+Supabase,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Neo4j,Yes,Unknown,Yes,medium,3,MCP status requires verification; Model requested manual review,True
+Snowflake,Yes,Unknown,Yes,high,3,MCP status requires verification; Model requested manual review,True
+MongoDB Atlas,Yes,Unknown,Unknown,unknown,2,Buildability requires verification; Invalid confidence value; MCP status requires verification; Model requested manual review,True
+Datadog,Yes,Native MCP support,High,high,3,MCP status requires verification; Model requested manual review,True
+Sentry,Yes,Unknown,Unknown,low,3,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Notion,Yes,Third-party integration,Yes,medium,3,MCP status requires verification; Model requested manual review,True
+Airtable,Yes,Unknown,Unknown,high,2,Buildability requires verification; MCP status requires verification; Model requested manual review,True
+Linear,Yes,Third-party integration,Yes,medium,3,MCP status requires verification; Model requested manual review,True
+Jira,Yes,Unsupported,Yes,medium,3,Model requested manual review,True
+Asana,Yes,Native,Yes,high,3,Model requested manual review,True
+Monday.com,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+ClickUp,Yes,Unknown,Not specified,medium,3,MCP status requires verification,True
+Coda,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Smartsheet,Yes,Third-party integration,Generally buildable,medium,3,MCP status requires verification,True
+Harvest,Yes,Unknown,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Stripe,Yes,Unknown,Yes,high,3,MCP status requires verification,True
+Plaid,Yes,Available,Yes,medium,3,MCP status requires verification,True
+Binance,Yes,Unknown,Yes,high,2,MCP status requires verification,True
+Paygent Connect,Unknown,Unknown,Unknown,low,0,API availability unknown; Authentication unknown; Buildability requires verification; Insufficient evidence URLs; MCP status requires verification; Missing or invalid API documentation URL; Model requested manual review,True
+iPayX,Yes,Native,"Yes - REST endpoints, webhooks and a hosted MCP server support integrations.",high,3,Model requested manual review,True
+QuickBooks,Yes,Unknown,Partially,low,3,Documentation domain not represented in evidence; MCP status requires verification,True
+Xero,Yes,Unknown,Unknown,medium,2,Buildability requires verification; Documentation domain not represented in evidence; MCP status requires verification,True
+Brex,Yes,Unknown,Low-Code/No-Code options,medium,2,MCP status requires verification,True
+Ramp,Yes,Native MCP support,Yes,high,3,MCP status requires verification,True
+PitchBook,Yes,Native MCP support,High,medium,3,MCP status requires verification,True
+NotebookLM,Yes,"Companion guides: REST batch pattern (1 000 questions overnight), n8n integration, Multi-account rotation, Compare with PleasePrompto/notebooklm-mcp v2.0.0",Unknown,unknown,3,Buildability requires verification; Invalid confidence value; MCP status requires verification,True
+Otter AI,Yes,Unknown,Partial,low,3,MCP status requires verification,True
+Fathom,Yes,Native MCP support,Unknown,high,2,Buildability requires verification; MCP status requires verification,True
+Consensus,Yes,Yes (native MCP support),Yes,high,3,MCP status requires verification,True
+Reducto,Yes,Native,Yes,high,2,Model requested manual review,True
+Devin,Yes,Native MCP support,Unknown,high,3,Buildability requires verification; MCP status requires verification,True
+Higgsfield,Yes,Unknown,Unknown,medium,3,Buildability requires verification; MCP status requires verification,True
+Mermaid CLI,No,Unknown,Yes - can be integrated into scripts and development workflows through CLI or Node.js.,high,1,Insufficient evidence URLs; Invalid or missing authentication methods; MCP status requires verification; Model requested manual review,True
+YouTube Transcript,Yes,Native MCP support,Yes,high,3,MCP status requires verification,True
+Grain,Yes,Unknown,Unknown,low,3,Buildability requires verification; Documentation domain not represented in evidence; MCP status requires verification,True
