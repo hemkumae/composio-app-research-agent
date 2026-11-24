@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API & MCP App Research Agent</title>
+<style>
+:root{--ink:#172033;--muted:#65718a;--line:#e3e8f0;--bg:#f5f7fb;--card:#fff;--blue:#315efb;--amber:#9a5b00}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{background:linear-gradient(120deg,#101b39,#2448a5);color:#fff;padding:56px 22px}
+.wrap{max-width:1040px;margin:auto}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 16px}header p{max-width:760px;color:#dce5ff;margin:0}
+main{max-width:1040px;margin:28px auto;padding:0 20px}.notice{background:#fff5df;border:1px solid #f0d59d;color:#704600;padding:16px 18px;border-radius:12px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:0 5px 20px #1b2a4a08}
+h2{font-size:1.25rem;margin:0 0 12px}.muted{color:var(--muted)}.status{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.82rem;font-weight:650;background:#fff0d6;color:var(--amber)}
+ol{padding-left:22px}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.foot{padding:28px 0;color:var(--muted);font-size:.9rem}
+</style></head>
+<body>
+<header><div class="wrap"><h1>API & MCP App Research Agent</h1><p>A Python/Jupyter prototype for collecting evidence about SaaS APIs, authentication, developer credential access, MCP availability, and integration feasibility.</p></div></header>
+<main>
+<div class="notice"><strong>Prototype status:</strong> This is an in-progress implementation. Tavily search and webpage reading were tested. The OpenAI extraction call was blocked by an API response indicating no remaining credits. The 100-app research, independent verification, measured accuracy evaluation, and data-backed findings dashboard have not been completed. No results or accuracy figures are fabricated on this page.</div>
+<section class="grid">
+<div class="card"><h2>Research scope</h2><p class="muted">10 starter applications across communication, email, CRM, payments, and project management. Replace the starter list with the assignment's full 100-app list.</p></div>
+<div class="card"><h2>Search layer</h2><p class="muted">Tavily search for official developer documentation, authentication guides, API references, and MCP evidence.</p><span class="status">Search tested</span></div>
+<div class="card"><h2>Page reader</h2><p class="muted">Requests and BeautifulSoup extract readable text from many static documentation pages. Some sites may block automated reading or require JavaScript.</p><span class="status">Reader tested</span></div>
+<div class="card"><h2>Extraction & verification</h2><p class="muted">Structured LLM extraction and a second-pass review are implemented in the notebook, but not yet executed successfully due to API billing limits.</p><span class="status">Not yet validated</span></div>
+</section>
+<section class="card" style="margin-top:18px"><h2>Pipeline</h2><ol><li>Load an app list and category labels.</li><li>Search official API and developer documentation.</li><li>Read source pages and retain evidence URLs.</li><li>Extract API availability, auth methods, credential access, MCP status, and blockers.</li><li>Re-check a sample and flag uncertain claims for human review.</li><li>Analyze only the records actually collected and manually verified.</li></ol></section>
+<section class="card" style="margin-top:18px"><h2>Repository contents</h2><ul><li><a href="app_research_ai_agent.ipynb">Jupyter notebook</a> — runnable research workflow.</li><li><a href="apps.csv">Starter app list</a> — editable input file.</li><li><a href="requirements.txt">Requirements</a> — Python dependencies.</li><li><a href="README.md">README</a> — setup, limitations, and verification instructions.</li></ul></section>
+<section class="card" style="margin-top:18px"><h2>Responsible reporting</h2><p class="muted">Search results are evidence leads, not proof. Prefer official vendor sources, distinguish native MCP support from third-party connectors, report unknowns honestly, and calculate accuracy only against a manually checked ground-truth sample.</p></section>
+<div class="foot">Project overview • Built as an evaluation prototype • No API keys or credentials are stored in this repository.</div>
+</main></body></html>
